@@ -7,7 +7,6 @@
 ** Hands-On
 
 ** After Party
-
 * Prague Lambda = Program better
 
 "Point of view is worth 80 IQ points" (Alan Kay)

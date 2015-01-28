@@ -165,8 +165,47 @@ nil
 ;; shorter
 (map #(+ 1 (* 2 %)) [0 1 2 3 4])
 
+(into [] (map inc [1 2 3 4]))
+
+;; syntactic sugar
+(->> (map inc [0 1 2 3 4])
+     (into []))
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
-;;      Recursion
+;;	Special forms
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(if true :true :false)
+
+(let [v1  1
+      v2  2]
+  {v1 v2})
+
+(cond
+  ;; conditions and expressions
+  (false? true) :one
+
+  ;; ...
+
+  :else :default-value)
+
+
+;; loop - recur
+(loop [var 10]
+  (when (pos? var)
+    (prn var)
+    (recur (dec var))))
+
+
+(reduce (fn [acc value]
+          (if (odd? value)
+            (conj acc value)
+            acc))
+        []
+        (range 20))
+
+(->> (range 20)
+     (filter odd?)
+     (reduce conj []))
