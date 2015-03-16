@@ -1,0 +1,98 @@
+* Prague Lambda = Program better
+
+"Point of view is worth 80 IQ points" (Alan Kay)
+
+** Meetup for functional programming
+*** every other Wednesday
+*** talks, jam sessions - new hands on & office hours
+
+** Past meetups:
+*** Clojure, Erlang, F#, Haskell, MUMPS
+*** React.js, Scheme, Smalltalk ...
+
+** Links
+*** Meetup:   http://meetup.com/Lambda-Meetup-Group
+*** Youtube:  PragueLambda channel
+*** Twitter:  @PragueLambda
+
+* Papers We Love = Think better
+
+** Papers We Love @ Prague 
+New chapter of Papers We Love Meetup
+
+** Papers We Love concept:
+*** share important computer science ideas
+*** videos and curated repository on Github
+*** https://github.com/papers-we-love/papers-we-love
+
+** Join!
+*** http://www.meetup.com/Papers-We-Love-Prague/
+*** @PapersWeLovePrg on Twitter
+
+* Hands On & Office Hours
+
+** Office hours
+*** meet and ask people who use language in production
+
+** Hands on
+*** assisted learning
+
+** Future
+*** more features, more languages
+*** weekend retreats, workshops
+
+** It's first time!
+*** be patient
+*** give feedback
+
+* Intro - Meet the Team
+
+** Daniel Kvasnička     @dkvasnickajr
+** Martin Janiczek      @janiczek
+
+** Daniel Škarda        @skardadan
+
+* Why Clojure
+
+** Lisp 
+*** functional programming
+*** macros
+
+** Immutable data structures
+*** concurrency
+*** time databases (Datomic)
+*** web development (React.js, Om)
+
+** Java & JavaScript
+*** integration with both platforms
+
+** Much more
+*** core.async, core.logic, core.match
+
+** Clever people
+
+* Today goal
+
+** Basic Clojure types and syntax
+
+** Collections and functions
+
+* Resources for today
+
+** Documentation
+*** Grimoire - http://conj.io
+
+** Coans
+*** 4Clojure - http://4clojure.org
+
+** Interactive Repl
+*** TryClojure - http://www.tryclj.com/
+*** Himera - https://himera.herokuapp.com/index.html
+
+
+** Other resources:
+*** J. Hughes: Why functional programming matters
+*** G.J. Sussmann, H. Abelson: Structure and
+**** Interpretation of Computer Programs
+
+** https://github.com/lambda-prague/hands-on-clojure-1
