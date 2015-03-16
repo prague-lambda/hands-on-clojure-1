@@ -7,6 +7,7 @@
 ** Hands-On
 
 ** After Party
+
 * Prague Lambda = Program better
 
 "Point of view is worth 80 IQ points" (Alan Kay)
@@ -16,7 +17,8 @@
 *** talks, jam sessions - new hands on & office hours
 
 ** Past meetups:
-*** Clojure, Erlang, F#, Haskell, MUMPS, React.js, Scheme, Smalltalk..
+*** Clojure, Erlang, F#, Haskell, MUMPS
+*** React.js, Scheme, Smalltalk ...
 
 ** Links
 *** Meetup:   http://meetup.com/Lambda-Meetup-Group
@@ -111,6 +113,7 @@ New chapter of Papers We Love Meetup
 
 ** Other resources:
 *** J. Hughes: Why functional programming matters
-*** G.J. Sussmann, H. Abelson: Structure and Interpretation of Computer Programs
+*** G.J. Sussmann, H. Abelson: Structure and
+**** Interpretation of Computer Programs
 
 ** https://github.com/lambda-prague/hands-on-clojure-1
